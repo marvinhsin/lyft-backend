@@ -16,7 +16,7 @@ def create_glissade(self, current_date, last_service_date, current_mileage, last
     battery = SpindlerBattery(current_date, last_service_date)
     return Car(engine, battery)
 
-def create_palindrome(self, current_date, last_service_date, current_mileage, last_service_mileage):
+def create_palindrome(self, current_date, last_service_date, warning_light_is_on):
     engine = SternmanEngine(warning_light_is_on)
     battery = SpindlerBattery(current_date, last_service_date)
     return Car(engine, battery)
